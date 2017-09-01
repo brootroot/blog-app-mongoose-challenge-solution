@@ -2,3 +2,10 @@ language: node_js
 node_js: node
 services:
 - mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: iIS5bAWxOHCX4EtJY3LdvlPSq7FqFgsBBfHX65BJvLHo0s0qs2TXMbTRew+kVpIXilvmu0fuSP7Mb3v4ZFJJvM9ZZIm4typl1hj3AP/OaRcAYdK9LuoJxgr7kcGpp0cH1cs+mAJ1bdw4E873gvsCT6a+6ApX/M6K2b5UM1dRjEfJeOvOLWBSs1xdxrOXqiq3Z8HWMDDH8TqAS7+HwPAAAdHSFxbx4Xa+yDr4t9Uhg8VMirLKNrdCMkS9npiEChh240GWZ/wA0hYfIpE6b4+eBGqa9v82guK6vD5YEvdzTufWqftXOc+A1dNqIdXfBio732bWxcqsuLGW1hAMoy048CnqDVaykjaU0wxEeoo/0m2y8qmFuelW4I9cUhAVp99+HMe+hI62gD3uKE9yqMS4CaBjk8Rg+zTIi6VOPEWaAklVtbArPTMYrK2/c8C7w/tXKmEaccGUkM+bjC0CkaI4KFsnNd/je8R6F7YlCs//FMwUc9rdJZmjBOEZt3Kyc8V0Rk7GmY1g6CrtupkURfLcBQcN39wP1LNObtLG8m7XaR+uKgHLgswSiK7KDWTBXzslV9c9boeOePWD/AAHmdlbMT+LntGDLbsIps2W6bFXc1d1LpZ9ktpOB6PgnBlgc0N1xhAs7rfbaUXhjQXbXcm1A47diCQg40E64CSVkzdAp4Y=
+  app: desolate-forest-43084
+  on:
+    repo: brootroot/blog-app-mongoose-challenge-solution
